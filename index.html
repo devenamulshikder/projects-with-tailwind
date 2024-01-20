@@ -7,48 +7,30 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header>
-      <nav class="bg-blue-950 w-full py-5 px-32">
-        <div class="flex lg:flex justify-between text-center">
-          <div class="flex justify-center text-center space-x-8">
-            <img
-              class="w-full"
-              src="./tailwindConceptual_01/assets/logo-3.png"
-              alt=""
-            />
-            <div class="flex text-center justify-center text-white space-x-4">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Services</a>
-              <a href="#">Blog</a>
-              <a href="#">Contact</a>
+    <nav class="bg-[#0e1133] py-6">
+      <div class="container mx-auto px-8 lg:px-24">
+        <div class="flex text-white justify-between">
+          <div class="flex justify-center items-center space-x-6">
+            <div>
+              <img src="./tailwindConceptual_01/assets/logo-3.png" alt="" />
+            </div>
+            <div class=" space-x-4 text-lg font-semibold hidden lg:flex">
+              <a class="hover:text-orange-600 duration-300" href="#">Home</a>
+              <a class="hover:text-orange-600 duration-300" href="#">About</a>
+              <a class="hover:text-orange-600 duration-300" href="#">Services</a>
+              <a class="hover:text-orange-600 duration-300" href="#">Blog</a>
+              <a class="hover:text-orange-600 duration-300" href="#">Contact</a>
             </div>
           </div>
-          <div class="flex text-center space-x-2 text-white font-semibold">
-            <button>Login</button>
-            <button class="py-2 px-5 rounded-md bg-red-500">Get Started</button>
+          <div class="space-x-6 hidden lg:flex">
+            <button class="text-lg font-semibold">Login</button>
+            <button class="bg-red-500 px-6 py-3 rounded-md text-lg font-semibold hover:bg-transparent border-2 border-red-600 duration-700">Get Started</button>
+          </div>
+          <div class="lg:hidden ">
+            <img class="w-8 h-8" src="./tailwindConceptual_01/assets/more.png" alt="">
           </div>
         </div>
-      </nav>
-      <section class="mx-auto justify-center text-center bg-blue-900 h-96">
-        <div class="container text-white pt-10 space-y-5">
-          <h1 class="font-bold text-5xl">
-            Creative way to <br />Showcase your
-            <span class="text-red-500">App</span>
-          </h1>
-          <p>Your app gets maximum attention and gets more and more downloads.</p>
-         <div class="flex mx-auto justify-center text-center space-x-3">
-            <button class="py-2 px-5 rounded-md bg-red-500">Get a Quote</button>
-            <div class=""> 
-              <img class="" src="./tailwindConceptual_01/assets/play-button.png" alt="">
-              <button class="">Play Video</button>
-            </div>
-         </div>
-        </div>
-        <div class="max-w-fit mx-auto mt-7">
-            <img class="w-full" src="./tailwindConceptual_01/assets/hero-thumb-4.png" alt="">
-        </div>
-      </section>
-    </header>
+      </div>
+    </nav>
   </body>
 </html>
